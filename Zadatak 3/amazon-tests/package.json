@@ -1,0 +1,17 @@
+{
+  "name": "amazon-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000"
+  },
+  "keywords": ["selenium", "mocha", "testing", "amazon"],
+  "author": "",
+  "license": "ISC",
+  "description": "Automated tests for Amazon.com using Selenium WebDriver",
+  "dependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "selenium-webdriver": "^4.39.0"
+  }
+}
